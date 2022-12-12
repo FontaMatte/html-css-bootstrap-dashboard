@@ -11,8 +11,41 @@
     </head>
     <body>
         <!-- INIZIO HEADER -->
-        <header>
-            <nav>NAV</nav>
+        <header class="bg-light">
+            <nav class="navbar navbar-expand bg-white">
+                <div class="container-fluid">
+                  <a class="navbar-brand d-none d-lg-block" href="#"><img src="img/logo.svg" alt="logo-desktop"></a>
+                  <a class="navbar-brand d-lg-none d-xl-block d-xl-none" href="#"><img class="logo-mobile" src="img/mobile-logo.png" alt="mobile-logo"></a>
+                    <div class="collapse navbar-collapse">
+                        <div class="input-group">
+                            <a class="input-group-text text-decoration-none my_lightgray border border-0" href="#"><i class="bi bi-search"></i></a>
+                            <input type="text" class="form-control my_lightgray border border-0" placeholder="Prova a cercare : Lezioni di Laravel">
+                        </div>   
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" href="#"><i class="bi bi-list-ul"></i></a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" href="#"><i class="bi bi-question-circle-fill"></i></a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link" href="#"><i class="bi bi-three-dots-vertical"></i></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-bell-fill text-warning"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              </nav>
         </header>
         <!-- INIZIO MAIN -->
         <main>
@@ -74,5 +107,7 @@
                 </div>
             </div>
         </main>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     </body>
 </html>
