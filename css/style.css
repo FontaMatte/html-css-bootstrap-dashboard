@@ -7,7 +7,7 @@ header {
 /* regole main */
 
 /* regole aside */
-nav {
+header nav {
     height: 50px;
     background-color: red;
     border: 1px dashed black;
@@ -22,25 +22,12 @@ nav {
 .main-content {
     width: 90%;
     height:calc(100vh - 70px);
-    background-color: blue;
     overflow: auto;
 }
 
 .main-content .main-header {
     background-color: aqua;
     height: 80px;
-}
-
-.main-content .left-columns {
-    background-color: yellow;
-    height: 500px;
-    border: 1px dashed black;
-}
-
-.main-content .right-columns {
-    background-color:green;
-    height: 500px;
-    border: 1px dashed black;
 }
 
 .main-content .left-columns .col-12 {
@@ -51,6 +38,6 @@ nav {
 
 .main-content .right-columns .col-12 {
     background-color:orchid;
-    height: 450px;
+    height: 350px;
     border: 1px dashed black;
 }
