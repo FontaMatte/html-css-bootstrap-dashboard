@@ -5,18 +5,6 @@
 .my_lightgray {
     background-color: var(--light-gray);
 }
-/* regole header */
-header {
-    background-color: white;
-    padding: 10px 0;
-}
-/* regole main */
-
-/* regole aside */
-header nav {
-    height: 50px;
-    background-color: red;
-}
 
 .logo-mobile {
     height: 50px;
