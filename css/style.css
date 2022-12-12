@@ -1,0 +1,56 @@
+/* regole header */
+header {
+    background-color: white;
+    border: 1px dashed black;
+    padding: 10px 0;
+}
+/* regole main */
+
+/* regole aside */
+nav {
+    height: 50px;
+    background-color: red;
+    border: 1px dashed black;
+}
+
+.main-aside {
+    width: 10%;
+    background-color: orange;
+}
+
+/* regole main-content */
+.main-content {
+    width: 90%;
+    height:calc(100vh - 70px);
+    background-color: blue;
+    overflow: auto;
+}
+
+.main-content .main-header {
+    background-color: aqua;
+    height: 80px;
+}
+
+.main-content .left-columns {
+    background-color: yellow;
+    height: 500px;
+    border: 1px dashed black;
+}
+
+.main-content .right-columns {
+    background-color:green;
+    height: 500px;
+    border: 1px dashed black;
+}
+
+.main-content .left-columns .col-12 {
+    background-color:blueviolet;
+    height: 450px;
+    border: 1px dashed black;
+}
+
+.main-content .right-columns .col-12 {
+    background-color:orchid;
+    height: 450px;
+    border: 1px dashed black;
+}
