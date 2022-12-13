@@ -31,13 +31,13 @@ header {
     background-color: rgba(255, 255, 255,0.5);
 }
 
+/* Regole main */
 /* regole main-content */
 .main-content {
     width: calc(100% - 150px);
     height:calc(100vh - 60px);
     overflow: auto;
 }
-
 
 .prossime-classi .table tr td img {
     width: 30px;
@@ -46,6 +46,11 @@ header {
 
 .dropdown-toggle::after {
     content: none;
+}
+
+/* regole main-header */
+.offcanvas {
+    width: 50% !important;
 }
 
 /* Media query */
@@ -60,5 +65,9 @@ header {
 
     .main-content {
         width: calc(100% - 60px);
+    }
+
+    .offcanvas {
+        width: 100% !important;
     }
 }
