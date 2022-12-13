@@ -70,4 +70,20 @@ header {
     .offcanvas {
         width: 100% !important;
     }
+
+    table th:nth-child(2) {
+        display: none;
+    }
+
+    table th:nth-child(3) {
+        display: none;
+    }
+
+    table td:nth-child(2) {
+        display: none;
+    }
+
+    table td:nth-child(3) {
+        display: none;
+    }
 }
