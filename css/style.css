@@ -44,13 +44,6 @@ header {
     vertical-align: middle;
 }
 
-
-.main-content .right-columns .col-12 {
-    background-color:orchid;
-    height: 350px;
-    border: 1px dashed black;
-}
-
 .dropdown-toggle::after {
     content: none;
 }
