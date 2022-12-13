@@ -44,10 +44,6 @@ header {
     vertical-align: middle;
 }
 
-.main-content .left-columns .col-12 {
-    height: 450px;
-    border: 1px dashed black;
-}
 
 .main-content .right-columns .col-12 {
     background-color:orchid;
