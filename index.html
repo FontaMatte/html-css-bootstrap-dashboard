@@ -12,7 +12,7 @@
     <body>
         <!-- INIZIO HEADER -->
         <header>
-            <nav class="navbar navbar-expand bg-white">
+            <nav class="navbar navbar-expand bg-white p-0 p-lg-2">
                 <div class="container-fluid">
                   <a class="navbar-brand d-none d-lg-block" href="#"><img src="img/logo.svg" alt="logo-desktop"></a>
                   <a class="navbar-brand d-lg-none d-xl-block d-xl-none" href="#"><img class="logo-mobile" src="img/mobile-logo.png" alt="mobile-logo"></a>
@@ -93,53 +93,170 @@
                     <div class="container-fluid">
 
                         <!-- main-header -->
-                        <div class="row main-header mb-2">
+                        <div class="row main-header mb-2 bg-primary text-white p-3">
                             <div class="col-12">
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-xs-12">Boolean</div>
-                                    <div class="col-lg-3 col-md-3 col-xs-12">online student</div>
-                                    <div class="col-lg-3 col-md-3 col-xs-12">add student</div>
+                                    <div class="col-lg-6 col-md-4 col-xs-12 order-md-1 order-sm-2 mb-sm-3">
+                                        <div>
+                                            <h1 class="d-inline-block">
+                                                Boolean
+                                            </h1>
+                                            <span class="badge rounded-pill my_blue">
+                                               Piano blaze 
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span class="badge rounded-pill my_blue">
+                                                3 app 
+                                            </span>
+                                            <span><i class="bi bi-chevron-double-right"></i></span>
+                                            <span class="badge rounded-pill my_blue me-1 d-none d-lg-inline">
+                                                Boolean mobile app 
+                                            </span>
+                                            <span class="badge rounded-pill my_blue d-lg-none">
+                                                <i class="bi bi-plus"></i>
+                                            </span>
+                                            <span class="badge rounded-pill my_blue me-1 d-none d-lg-inline">
+                                                Boolean web app 
+                                            </span>
+                                            <span class="badge rounded-pill my_blue me-1 d-none d-lg-inline">
+                                                Boolean blog app 
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-xs-12 order-md-2 order-sm-3">
+                                        <div>
+                                            Studenti online negli utlimi 30 minuti
+                                        </div>
+                                        <span class="fs-3">125</span>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-xs-12 order-sm-1 order-md-3 mb-sm-3">
+                                        <div>
+                                           <span class="align-middle me-3">Nuovo Studente</span><span><i class="bi bi-plus-square align-middle fs-2"></i></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div> 
+                    <div class="container-fluid">
                         <div class="row">
                             <!-- colonne di sinistra -->
                             <div class="col-lg-8 left-columns">
                                 <div class="row">
                                     <!-- prossime classi -->
-                                    <div class="col-12 mb-4">
-                                        <table class="table">
-                                            <thead>
-                                              <tr>
-                                                <th scope="col">#</th>
-                                                <th scope="col">First</th>
-                                                <th scope="col">Last</th>
-                                                <th scope="col">Handle</th>
-                                              </tr>
-                                            </thead>
-                                            <tbody>
-                                              <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                              </tr>
-                                              <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                              </tr>
-                                              <tr>
-                                                <th scope="row">3</th>
-                                                <td colspan="2">Larry the Bird</td>
-                                                <td>@twitter</td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
+                                    <div class="col-12 mb-4 prossime-classi">
+                                        <div class="card">
+                                            <div class="card-header fs-3">
+                                                Prossime classi
+                                            </div>
+                                            <div class="card-body">
+                                                <table class="table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th scope="col" colspan="3">Nome</th>
+                                                        <th scope="col">Data inizio</th>
+                                                        <th scope="col">ROI</th>
+                                                        <th scope="col">Stato</th>
+                                                        <th scope="col">Azioni</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td colspan="3"><img src="img/class-avatar.jpg" alt="class-avatar"><span class="align-middle ms-2">Classe 75</span></td>
+                                                        <td>15 Feb 2021</td>
+                                                        <td>20%</td>
+                                                        <td>
+                                                            <div class="badge text-bg-success">
+                                                                Done
+                                                            </div>
+                                                        </td>
+                                                        <td>icons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><img src="img/class-avatar.jpg" alt="class-avatar"><span class="align-middle ms-2">Classe 76</span></td>
+                                                        <td>16 Feb 2021</td>
+                                                        <td>20%</td>
+                                                        <td>
+                                                            <div class="badge text-bg-success">
+                                                                Done
+                                                            </div>
+                                                        </td>
+                                                        <td>icons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><img src="img/class-avatar.jpg" alt="class-avatar"><span class="align-middle ms-2">Classe 77</span></td>
+                                                        <td>17 Feb 2021</td>
+                                                        <td>20%</td>
+                                                        <td>
+                                                            <div class="badge text-bg-warning text-white">
+                                                                Process
+                                                            </div>
+                                                        </td>
+                                                        <td>icons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><img src="img/class-avatar.jpg" alt="class-avatar"><span class="align-middle ms-2">Classe 78</span></td>
+                                                        <td>18 Feb 2021</td>
+                                                        <td>20%</td>
+                                                        <td>
+                                                            <div class="badge text-bg-success">
+                                                                Done
+                                                            </div>
+                                                        </td>
+                                                        <td>icons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><img src="img/class-avatar.jpg" alt="class-avatar"><span class="align-middle ms-2">Classe 79</span></td>
+                                                        <td>19 Feb 2021</td>
+                                                        <td>20%</td>
+                                                        <td>
+                                                            <div class="badge text-bg-danger">
+                                                                failed
+                                                            </div>
+                                                        </td>
+                                                        <td>icons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><img src="img/class-avatar.jpg" alt="class-avatar"><span class="align-middle ms-2">Classe 80</span></td>
+                                                        <td>20 Feb 2021</td>
+                                                        <td>20%</td>
+                                                        <td>
+                                                            <div class="badge text-bg-success">
+                                                                Done
+                                                            </div>
+                                                        </td>
+                                                        <td>icons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><img src="img/class-avatar.jpg" alt="class-avatar"><span class="align-middle ms-2">Classe 81</span></td>
+                                                        <td>21 Feb 2021</td>
+                                                        <td>20%</td>
+                                                        <td>
+                                                            <div class="badge text-bg-danger">
+                                                                failed
+                                                            </div>
+                                                        </td>
+                                                        <td>icons</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3"><img src="img/class-avatar.jpg" alt="class-avatar"><span class="align-middle ms-2">Classe 82</span></td>
+                                                        <td>22 Feb 2021</td>
+                                                        <td>20%</td>
+                                                        <td>
+                                                            <div class="badge text-bg-success">
+                                                                Done
+                                                            </div>
+                                                        </td>
+                                                        <td>Icons</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
                                     </div>
                                     <!-- faq -->
-                                    <div class="col-12 mb-4"></div>
+                                    <div class="col-12 mb-4">faq</div>
                                 </div>
                             </div>
                             <!-- colonne di destra -->

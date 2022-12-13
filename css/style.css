@@ -1,9 +1,14 @@
 :root {
     --light-gray: #e5e5e5;
+    --blue:#165bba;
 }
 
 .my_lightgray {
     background-color: var(--light-gray);
+}
+
+.my_blue {
+    background-color: var(--blue);
 }
 
 /* regole header */
@@ -33,13 +38,13 @@ header {
     overflow: auto;
 }
 
-.main-content .main-header {
-    background-color: aqua;
-    height: 80px;
+
+.prossime-classi .table tr td img {
+    width: 30px;
+    vertical-align: middle;
 }
 
 .main-content .left-columns .col-12 {
-    background-color:blueviolet;
     height: 450px;
     border: 1px dashed black;
 }
