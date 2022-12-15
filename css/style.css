@@ -44,6 +44,10 @@ header {
     vertical-align: middle;
 }
 
+.table .my-table-column-large {
+    width: 50%;
+}
+
 .dropdown-toggle::after {
     content: none;
 }
